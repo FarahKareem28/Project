@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvoStore</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+            <a href="#home"><img src="../img/logo_no_bg.png" alt="Logo" class="logo"></a>
+            <h5 class="d-inline ms-1 my-auto">AvoStore</h5>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <span>Categories</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#iphone">Iphone</a></li>
+                            <li><a class="dropdown-item" href="#ipad-category">Ipad</a></li>
+                            <li><a class="dropdown-item" href="#headphones">Headphones</a></li>
+                            <li><a class="dropdown-item" href="#accessories">Accessories</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#offers">Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact us</a>
+                    </li>
+                </ul>
+                <a href="#cart" class="cart"><img src="../img/shopping-cart.png" alt="Shopping Cart" id="cart_img"></a>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="home" class="row d-flex align-items-center justify-content-center text-center text-md-start">
+            <div class="home-text col-12 col-md-6 text-center text-md-start">
+                <h1 class="mb-3">Discover The Best Products For You</h1>
+                <h4 class="mb-3">The latest trends with the best quality</h4>
+                <a class="btn btn-primary w0 mb-2 ms-md-4" href="#products">Shop Now</a>
+            </div>
+            <div class="col-12 col-md-6 text-center">
+                <img src="../img/New_iPhone_17_Pro_-removebg-preview.png" alt="Home image"
+                    class="Home-image img-fluid ">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="why-choose-us row g-4 text-center mx-auto">
+            <div class="col-6 col-md-3 why-card">
+                <img src="../img/express-delivery.png" alt="fast delivery" class="why-choose-us-image">
+                <span class="why-text">Fast delivery</span>
+            </div>
+            <div class="col-6 col-md-3 why-card">
+                <img src="../img/product-return.png" alt="Free return" class="why-choose-us-image">
+                <span class="why-text">Free return</span>
+            </div>
+            <div class="col-6 col-md-3 why-card">
+                <img src="../img/save-money.png" alt="Best prices" class="why-choose-us-image">
+                <span class="why-text">Best prices</span>
+            </div>
+            <div class="col-6 col-md-3 why-card">
+                <img src="../img/clock.png" alt="Support" class="why-choose-us-image">
+                <span class="why-text">24/7 Support</span>
+            </div>
+        </div>
+    </div>
+    <div id="products">
+        <div class="text-center mt-5">
+            <h2>Products</h2>
+            <h4>Here is some of our products <br><strong> <em>You can view more by selecting a category</em></strong>
+            </h4>
+        </div>
+        <div class="products-cards my-4 p-3">
+            <div class="cards row g-3 m-2 px-4">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="../img/iphonexsmax.png" class="card-img-top product-img img-fluid" alt="iphone xs max">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone XS max</h5>
+                            <p class="card-price">16,000 EGP</p>
+                            <a href="#iph-xs" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <span class="new position-absolute top-0 start-0 rounded">New</span>
+                        <img src="../img/Apple_iPad_Pro.png" class="card-img-top product-img img-fluid" alt="Ipad pro">
+                        <div class="card-body">
+                            <h5 class="card-title">iPad Pro</h5>
+                            <p class="card-price">84,000 EGP</p>
+                            <a href="#ipad-pro" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="../img/AirPods_Max_2.png" class="card-img-top product-img img-fluid"
+                            alt="AirPods Max 2">
+                        <div class="card-body">
+                            <h5 class="card-title">AirPods Max 2</h5>
+                            <p class="card-price">30,444 EGP</p>
+                            <a href="#airpods-max" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <span class="sale position-absolute top-0 start-0 rounded">Sale</span>
+                        <img src="../img/Apple_pencil_pro.png" class="card-img-top product-img img-fluid"
+                            alt="Apple pencil pro">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple pencil pro</h5>
+                            <div class="my-3">
+                                <span class="card-price">6,398 EGP</span>
+                                <span class="discount"><em>6,782.00 EGP</em></span>
+                            </div>
+                            <a href="#pencil" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="categories">
+        <div class="text-center">
+            <h2>Categories</h2>
+            <h4>Explore our wide range of products</h4>
+        </div>
+        <div class="categories_buttons row mx-auto g-2">
+            <div class="col-12 col-md">
+                <a href="#iphone" class="button_c w-100 d-block text-center">iPhone</a>
+            </div>
+            <div class="col-12 col-md">
+                <a href="#ipad-category" class="button_c w-100 d-block text-center">iPad</a>
+            </div>
+            <div class="col-12 col-md">
+                <a href="#headphones" class="button_c w-100 d-block text-center">Headphones</a>
+            </div>
+            <div class="col-12 col-md">
+                <a href="#accessories" class="button_c w-100 d-block text-center">Accessories</a>
+            </div>
+            <div class="col-12 col-md mx-auto">
+                <a href="#offers" class="button_c w-100 d-block text-center">Offers</a>
+            </div>
+        </div>
+        <div id="iphone" class="category my-2">
+            <h2>Iphone:</h2>
+            <div class="cards row g-3 my-2 mx-2 px-2">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <span class="new position-absolute top-0 start-0 rounded">New</span>
+                        <img src="../img/iphone17.png" class="card-img-top product-img img-fluid" alt="iphone 17 pro">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 17 pro</h5>
+                            <p class="card-price">97,999 EGP</p>
+                            <a href="#iph-17" class="btn btn-primary view_details iph-17 mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <span class="sale position-absolute top-0 start-0 rounded">Sale</span>
+                        <img src="../img/iphone16.png" class="card-img-top product-img img-fluid" alt="iphone 16 plus">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 16 plus</h5>
+                            <div class="my-3">
+                                <span class="card-price">69,999 EGP</span>
+                                <span class="discount">71,999 EGP</span>
+                            </div>
+                            <a href="#iph-16" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="../img/iphone15.png" class="card-img-top product-img img-fluid"
+                            alt="iphone 15 pro max">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 15 pro max</h5>
+                            <p class="card-price">52,200 EGP</p>
+                            <a href="#iph-15" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="../img/iphonexsmax.png" class="card-img-top product-img img-fluid"
+                            alt="iphone xs max">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone XS max</h5>
+                            <p class="card-price">16,000 EGP</p>
+                            <a href="#iph-xs" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ipad-category" class="category my-2">
+            <h2>Ipad:</h2>
+            <div class="cards row g-3 my-2 mx-2 px-2">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <span class="sale position-absolute top-0 start-0 rounded">Sale</span>
+                        <img src="../img/Apple_iPad.png" class="card-img-top product-img img-fluid" alt="ipad">
+                        <div class="card-body">
+                            <h5 class="card-title">iPad</h5>
+                            <div class="my-3">
+                                <span class="card-price">22,000 EGP</span>
+                                <span class="discount"><em>27,700 EGP</em></span>
+                            </div>
+                            <a href="#ipad" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <span class="new position-absolute top-0 start-0 rounded">New</span>
+                        <img src="../img/Apple_iPad_Pro.png" class="card-img-top product-img img-fluid" alt="Ipad pro">
+                        <div class="card-body">
+                            <h5 class="card-title">iPad Pro</h5>
+                            <p class="card-price">84,000 EGP</p>
+                            <a href="#ipad-pro" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="../img/Apple_iPad_Air.png" class="card-img-top product-img img-fluid" alt="ipad air">
+                        <div class="card-body">
+                            <h5 class="card-title">iPad Air</h5>
+                            <p class="card-price">38,500 EGP</p>
+                            <a href="#ipad-air" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="../img/ipad_mini.png" class="card-img-top product-img img-fluid" alt="ipad mini">
+                        <div class="card-body">
+                            <h5 class="card-title">iPad mini</h5>
+                            <p class="card-price">58,000 EGP</p>
+                            <a href="#ipad-mini" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="headphones" class="category my-2">
+            <h2>Headphones:</h2>
+            <div class="cards row g-3 my-2 mx-2 px-2">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="../img/AirPods4.png" class="card-img-top product-img img-fluid" alt="AirPods 4">
+                        <div class="card-body">
+                            <h5 class="card-title">AirPods 4</h5>
+                            <p class="card-price">10,499 EGP</p>
+                            <a href="#airpods-4" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="../img/AirPods_Max_2.png" class="card-img-top product-img img-fluid"
+                            alt="AirPods Max 2">
+                        <div class="card-body">
+                            <h5 class="card-title">AirPods Max 2</h5>
+                            <p class="card-price">30,444 EGP</p>
+                            <a href="#airpods-max" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="../img/Apple_Airpods_Pro__2.png" class="card-img-top product-img img-fluid"
+                            alt="AirPods Pro 2">
+                        <div class="card-body">
+                            <h5 class="card-title">AirPods Pro 2</h5>
+                            <p class="card-price">10,999 EGP</p>
+                            <a href="#airpods-2" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <span class="sale position-absolute top-0 start-0 rounded">Sale</span>
+                        <img src="../img/AirPods_pro3.png" class="card-img-top product-img img-fluid"
+                            alt="AirPods Pro 3">
+                        <div class="card-body">
+                            <h5 class="card-title">AirPods Pro 3</h5>
+                            <div class="my-3">
+                                <span class="card-price">12,030 EGP</span>
+                                <span class="discount"><em>12,800 EGP</em></span>
+                            </div>
+                            <a href="#airpods-3" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="accessories" class="category my-2">
+            <h2>Accessories:</h2>
+            <div class="cards row g-3 my-2 mx-2 px-2">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <span class="new position-absolute top-0 start-0 rounded">New</span>
+                        <img src="../img/iPhone17_pro_silicon_case.png" class="card-img-top product-img img-fluid"
+                            alt="Iphone 17 pro silicon case">
+                        <div class="card-body">
+                            <h5 class="card-title">iPhone 17 pro silicon case</h5>
+                            <p class="card-price">200 EGP</p>
+                            <a href="#case-iph" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="../img/Airpods_Pro_Navy_Case.png" class="card-img-top product-img img-fluid"
+                            alt="Airpods pro 3 silicon case">
+                        <div class="card-body">
+                            <h5 class="card-title">Airpods pro 3 silicon case</h5>
+                            <p class="card-price">119 EGP</p>
+                            <a href="#case-airpod" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="../img/Apple__type_c_to_c_charging_cable-removebg-preview.png"
+                            class="card-img-top product-img img-fluid" alt="Type C cable">
+                        <div class="card-body">
+                            <h5 class="card-title">Type C cable</h5>
+                            <p class="card-price">854 EGP</p>
+                            <a href="#cable" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <span class="sale position-absolute top-0 start-0 rounded">Sale</span>
+                        <img src="../img/Apple_pencil_pro.png" class="card-img-top product-img img-fluid"
+                            alt="Apple pencil pro">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple pencil pro</h5>
+                            <div class="my-3">
+                                <span class="card-price">6,398 EGP</span>
+                                <span class="discount"><em>6,782 EGP</em></span>
+                            </div>
+                            <a href="#pencil" class="btn btn-primary view_details mb-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="product-spotlight" class="my-4">
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="iph-17">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6 ">
+                        <img src="../img/iphone17.png" class="spotlight-img img-fluid p-0" alt="iphone 17 pro">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <div>
+                            <span class="new text-white start-0 ms-0 rounded">New</span>
+                            <h5 class="card-title">iPhone 17 pro</h5>
+                        </div>
+                        <p class="description">Color:orange <br> Storage:256GB <br> Model:2025</p>
+                        <p class="card-price">97,999 EGP</p>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="iph-16">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/iphone16.png" class="spotlight-img img-fluid p-0" alt="iPhone 16 plus">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <div>
+                            <span class="sale text-white start-0 ms-0 rounded">Sale</span>
+                            <h5 class="card-title">iPad</h5>
+                        </div>
+                        <p class="description">Color:Purple <br> Storage:128GB <br> Model:2024</p>
+                        <div class="my-3">
+                            <span class="card-price">69,999 EGP</span>
+                            <span class="discount"><em>71,999 EGP</em></span>
+                        </div>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="iph-15">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/iphone15.png" class="spotlight-img img-fluid p-0" alt="iPhone 15 pro max">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <h5 class="card-title">iPhone 15 pro max</h5>
+                        <p class="description">color:Grey <br> storage:256GB <br> model:2023</p>
+                        <p class="card-price">52,200 EGP</p>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="iph-xs">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/iphonexsmax.png" class="spotlight-img img-fluid p-0" alt="iPhone XS max">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <h5 class="card-title">iPhone XS max</h5>
+                        <p class="description">color:Gold <br> storage:512GB <br> Model:2018</p>
+                        <p class="card-price">16,000 EGP</p>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="ipad">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/Apple_iPad.png" class="spotlight-img img-fluid p-0" alt="iPad">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <div>
+                            <span class="sale text-white start-0 ms-0 rounded">Sale</span>
+                            <h5 class="card-title">iPad</h5>
+                        </div>
+                        <p class="description">Color:Pink <br> storage:128GB <br> Screen Size:11Inches</p>
+                        <div class="my-3">
+                            <span class="card-price">22,000 EGP</span>
+                            <span class="discount"><em>27,700 EGP</em></span>
+                        </div>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="ipad-pro">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/Apple_iPad_Pro.png" class="spotlight-img img-fluid p-0" alt="iPad Pro">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <div>
+                            <span class="new text-white start-0 ms-0 rounded">New</span>
+                            <h5 class="card-title">iPad Pro</h5>
+                        </div>
+                        <p class="description">Color:Grey <br> storage:512GB <br> Screen Size:13Inches</p>
+                        <p class="card-price">84,000 EGP</p>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="ipad-air">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/Apple_iPad_Air.png" class="spotlight-img img-fluid p-0" alt="iPad Air">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <h5 class="card-title">iPad Air</h5>
+                        <p class="description">Color:Blue <br> storage:128GB <br> Screen Size:11Inches</p>
+                        <p class="card-price">38,500 EGP</p>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="ipad-mini">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/ipad_mini.png" class="spotlight-img img-fluid p-0" alt="iPad mini">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <h5 class="card-title">iPad mini</h5>
+                        <p class="description">color:Starlight <br> storage:128GB <br> screen size:8.3Inches</p>
+                        <p class="card-price">58,000 EGP</p>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="airpods-4">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/AirPods4.png" class="spotlight-img img-fluid p-0" alt="AirPods 4">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <h5 class="card-title">AirPods 4</h5>
+                        <p class="description">Active Noise Cancellation <br> Adaptive Audio <br> Personalized Spatial
+                            Audio</p>
+                        <p class="card-price">10,499 EGP</p>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="airpods-max">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/AirPods_Max_2.png" class="spotlight-img img-fluid p-0" alt="AirPods Max 2">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <h5 class="card-title">AirPods Max 2</h5>
+                        <p class="description">Over-Ear Headphonese <br> Pro-Level Active Noise Cancellation <br>
+                            Transparency Mode</p>
+                        <p class="card-price">30,444 EGP</p>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="airpods-2">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/Apple_Airpods_Pro__2.png" class="spotlight-img img-fluid p-0"
+                            alt="AirPods Pro 2">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <h5 class="card-title">AirPods Pro 2</h5>
+                        <p class="description">Up to 2X More Active Noise Cancelling <br> Adaptive Transparency <br>
+                            Personalized Spatial Audio</p>
+                        <p class="card-price">10,999 EGP</p>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="airpods-3">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/AirPods_pro3.png" class="spotlight-img img-fluid p-0" alt="AirPods Pro 3">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <div>
+                            <span class="sale text-white start-0 ms-0 rounded">Sale</span>
+                            <h5 class="card-title">AirPods Pro 3</h5>
+                        </div>
+                        <p class="description">Up to 2X More Active Noise Cancelling <br> Adaptive Transparency <br>
+                            Personalized Spatial Audio</p>
+                        <div class="my-3">
+                            <span class="card-price">12,030 EGP</span>
+                            <span class="discount"><em>12,800 EGP</em></span>
+                        </div>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="case-iph">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/iPhone17_pro_silicon_case.png" class="spotlight-img img-fluid p-0"
+                            alt="iPhone 17 pro silicon case">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <div>
+                            <span class="new text-white start-0 ms-0 rounded">New</span>
+                            <h5 class="card-title">iPhone 17 pro silicon case</h5>
+                        </div>
+                        <p class="description">Color:navy blue <br> Brand:Apple <br> Material:Silicon</p>
+                        <p class="card-price">200 EGP</p>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="case-airpod">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/Airpods_Pro_Navy_Case.png" class="spotlight-img img-fluid p-0"
+                            alt="Airpods pro 3 silicon case">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <h5 class="card-title">Airpods pro 3 silicon case</h5>
+                        <p class="description">Color:navy blue <br> Brand:Apple <br> Material:Silicon</p>
+                        <p class="card-price">119 EGP</p>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="cable">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/Apple__type_c_to_c_charging_cable-removebg-preview.png"
+                            class="spotlight-img img-fluid p-0" alt="Type C cable">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <h5 class="card-title">Type C cable</h5>
+                        <p class="description">Color:White <br> Type-C To Type-C <br> Length:1M</p>
+                        <p class="card-price">854 EGP</p>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards-spotlight container align-items-center mx-auto">
+            <div id="pencil">
+                <div class="spotlight-card row w-auto w-md-75 mx-auto text-center">
+                    <p class="spotlight-title mx-auto mt-4 mb-2">Product Spotlight</p>
+                    <div class="col-6">
+                        <img src="../img/Apple_pencil_pro.png" class="spotlight-img img-fluid p-0"
+                            alt="Apple pencil pro">
+                    </div>
+                    <div class="card-body col-6 text-start">
+                        <div>
+                            <span class="sale text-white start-0 ms-0 rounded">Sale</span>
+                            <h5 class="card-title">Apple pencil pro</h5>
+                        </div>
+                        <p class="description">Color:White <br> Brand:Apple <br> Material:Aluminium</p>
+                        <div class="my-3">
+                            <span class="card-price">6,398 EGP</span>
+                            <span class="discount"><em>6,782 EGP</em></span>
+                        </div>
+                        <a href="#" class="btn btn-primary add-to-cart mb-0">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="offers" class="category my-4">
+        <div class="ms-4">
+            <h2 class="mb-1">Offers:</h2>
+        </div>
+        <div class="cards row g-3 my-2 mx-2 px-2">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                    <span class="sale position-absolute top-0 start-0 rounded">Sale</span>
+                    <img src="../img/iphone16.png" class="card-img-top product-img img-fluid" alt="iphone 16 plus">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 16 plus</h5>
+                        <div class="my-3">
+                            <span class="card-price">69,999 EGP</span>
+                            <span class="discount">71,999 EGP</span>
+                        </div>
+                        <a href="#iph-16" class="btn btn-primary view_details mb-0">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                    <span class="sale position-absolute top-0 start-0 rounded">Sale</span>
+                    <img src="../img/Apple_iPad.png" class="card-img-top product-img img-fluid" alt="ipad">
+                    <div class="card-body">
+                        <h5 class="card-title">iPad</h5>
+                        <div class="my-3">
+                            <span class="card-price">22,000 EGP</span>
+                            <span class="discount"><em>27,700 EGP</em></span>
+                        </div>
+                        <a href="#ipad" class="btn btn-primary view_details mb-0">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                    <span class="sale position-absolute top-0 start-0 rounded">Sale</span>
+                    <img src="../img/AirPods_pro3.png" class="card-img-top product-img img-fluid" alt="AirPods Pro 3">
+                    <div class="card-body">
+                        <h5 class="card-title">AirPods Pro 3</h5>
+                        <div class="my-3">
+                            <span class="card-price">12,030 EGP</span>
+                            <span class="discount"><em>12,800 EGP</em></span>
+                        </div>
+                        <a href="#airpods-3" class="btn btn-primary view_details mb-0">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100">
+                    <span class="sale position-absolute top-0 start-0 rounded">Sale</span>
+                    <img src="../img/Apple_pencil_pro.png" class="card-img-top product-img img-fluid"
+                        alt="Apple pencil pro">
+                    <div class="card-body">
+                        <h5 class="card-title">Apple pencil pro</h5>
+                        <div class="my-3">
+                            <span class="card-price">6,398 EGP</span>
+                            <span class="discount"><em>6,782 EGP</em></span>
+                        </div>
+                        <a href="#pencil" class="btn btn-primary view_details mb-0">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="mx-5">
+    <div id="reviews " class="mb-5">
+        <div class="text-center m-4">
+            <h2><strong>What our customers say</strong></h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mx-3 my-2 cards px-2">
+            <div class="col">
+                <div class="card h-100 p-2">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="../img/girl (1).png" class="review-img me-3" alt="Girl">
+                            <div>
+                                <h5 class="card-title mb-1">Kayla John</h5>
+                                <h6 class="mb-0">⭐⭐⭐⭐⭐</h6>
+                            </div>
+                        </div>
+                        <h5>Very satisfied!</h5>
+                        <p class="card-text">Good quality, fast shipping, and great support.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 p-2">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="../img/man.png" class="review-img me-3" alt="Girl">
+                            <div>
+                                <h5 class="card-title mb-1">Ayman Gamal</h5>
+                                <h6 class="mb-0">⭐⭐⭐⭐⭐</h6>
+                            </div>
+                        </div>
+                        <h5>Best prices I found online</h5>
+                        <p class="card-text">Compared prices on multiple websites, and this store had the best deal.
+                            Definitely buying again!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 p-2">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <img src="../img/girl.png" class="review-img me-3" alt="Girl">
+                            <div>
+                                <h5 class="card-title mb-1">Gasmin Kareem</h5>
+                                <h6 class="mb-0">⭐⭐⭐⭐⭐</h6>
+                            </div>
+                        </div>
+                        <h5>Highly recommend this store</h5>
+                        <p class="card-text">Products are original and exactly as described. Trustworthy and
+                            professional 💯</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="mx-5">
+    <div id="contact-us" class="row mx-auto my-4 g-3">
+        <div class="stay-in-loop col-12 col-md-6 pt-3">
+            <h2>Stay in the loop</h2>
+            <h5>Subscribe to get notifications of our new products, offers, and discounts</h5>
+            <form action="index.html">
+                <div class="mb-3">
+                    <input type="email" placeholder=" Email" class="form-control" id="exampleInputEmail1" required>
+                    <div id="emailHelp" class="form-text ms-2">We'll never share your email with anyone else.</div>
+                    <button type="submit" class="btn btn-primary my-4 w0 contact-btn">Send</button>
+                </div>
+            </form>
+        </div>
+        <div class="contact-msg col-12 col-md-6 pt-3">
+            <h2>Contact Us</h2>
+            <h5>Have questions? Get in touch with us!</h5>
+            <form action="index.html">
+                <div>
+                    <input type="text" placeholder=" Name" class="form-control w-100 my-2" required>
+                </div>
+                <div>
+                    <input type="email" placeholder=" Email" class="form-control w-100 my-2" required>
+                </div>
+                <div>
+                    <textarea placeholder=" Write Your Message" class="form-control w-100 my-2" required></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary my-4 w0 contact-btn">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="social-media p-3">
+        <h3 class="me d-none d-lg-block mb-2">Get connected with us on social media:</h3>
+        <div class="social-img-sec">
+            <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook.png" class="social-img"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram-circle.png" class="social-img"></a>
+            <a href="https://www.whatsapp.com/" target="_blank"><img src="../img/whatsapp-circle.png" class="social-img"></a>
+            <a href="https://www.tiktok.com/" target="_blank"><img src="../img/tiktok-circle.png" class="social-img"></a>
+        </div>
+    </div>
+    <footer class="text-start p-4 bg-dark text-light row container-fluid m-0 ">
+        <div class="footer-sec col-lg-3 p-3">
+            <div class="mb-2">
+                <img src="../img/logo_no_bg.png" class="logo">
+                <h4 class="d-inline">AvoStore</h4>
+            </div>
+            <p class="ms-2">Designed and built with all the love in the world by the AvoStore team with the help of our
+                contributors</p>
+        </div>
+        <div class="footer-sec col-6 col-lg-3 p-3">
+            <h5>Links</h5>
+            <a href="#home" class=" text-light">Home</a>
+            <a href="#products" class=" text-light">Products</a>
+            <a href="#offers" class=" text-light">Offers</a>
+            <a href="#reviews" class=" text-light">Reviews</a>
+            <a href="#contact-us" class=" text-light">Contact Us</a>
+        </div>
+        <div class="footer-sec col-6 col-lg-3 p-3">
+            <h5>Products</h5>
+            <a href="#iphone" class=" text-light">iPhone</a>
+            <a href="#ipad-category" class=" text-light">iPad</a>
+            <a href="#headphones" class=" text-light">Headphones</a>
+            <a href="#accessories" class=" text-light">accessories</a>
+        </div>
+        <div class="footer-sec col-lg-3 p-3">
+            <h5>Contact</h5>
+            <div>
+                <img src="../img/round.png" class="social-img">
+                <span>Damietta - sorour St</span>
+            </div>
+            <div>
+                <img src="../img/mobile.png" class="social-img">
+                <span>+20 100 1234567</span>
+            </div>
+            <div>
+                <img src="../img/round (1).png" class="social-img">
+                <span>AvoStore123@gmail.com</span>
+            </div>
+        </div>
+        <hr>
+        <div class="text-center">
+            <p>© 2026 Copyright: AvoStore.com</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
